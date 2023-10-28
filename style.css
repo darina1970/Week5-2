@@ -1,0 +1,91 @@
+body {
+    /*Блочная модель*/
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    /*Блочная модель*/
+    display: flex;
+    flex: 0 0 content;
+    /*Оформление*/
+    background-color: lightgrey;
+}
+
+.header {
+    /*Блочная модель*/
+    justify-content: center;
+}
+
+.main {
+    /*Блочная модель*/
+    display: flex;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+.main__section {
+    /*Блочная модель*/
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    /*Оформление*/
+    background-color: cornsilk;
+}
+
+.container {
+    /*Блочная модель*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.article,
+.bottom__article {
+    /*Блочная модель*/
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    /*Оформление*/
+    background-color: orange;
+}
+
+.article {
+    width: 40%;
+}
+
+.bottom__article {
+    width: 90%;
+}
+
+.aside {
+    /*Блочная модель*/
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    /*Оформление*/
+    background-color: palegreen;
+}
+
+.footer {
+    /*Блочная модель*/
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.footer__class {
+    /*Блочная модель*/
+    display: flex;
+    min-height: 3em;
+    align-items: center;
+    /*Оформление*/
+    background-color: white;
+}
